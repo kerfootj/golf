@@ -4,7 +4,7 @@
  * https://codegolf.stackexchange.com/questions/158132/no-a-just-caps-lock/189556
  */
 f =
-  s => s.split(/a|A/).map((x, i) => (i % 2 ? x.toUpperCase() : x)).join('')
+  s => s.split(/a|A/).map((x, i) => (i % 2 ? x.toUpperCase() : x)).join``
 
 console.log(f("The quick brown fox jumps over the lazy dog."));
 console.log(f("Compilation finished successfully."));
